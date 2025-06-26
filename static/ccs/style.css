@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+}
+img{
+    width: 400px;
+    height: 250px;
+}
+
+img:hover{
+    opacity: 0.8;
+}

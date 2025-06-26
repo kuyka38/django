@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+
+{% load static %}
+<link rel="icon" href="{% static 'images/favicon.png' %}" type="image/x-icon">
+
+<link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+<script> src="{% static 'bootstrap/js/bootstrap.min.js' %}</script>
+<style>
+    img{
+        width: 200px;
+        height: 150px;
+
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products</title>
+</head>
+<body>
+
+<h1 class="text-center">Property Information</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, amet asperiores cum deleniti doloribus earum est et inventore laudantium minima modi molestiae odit perferendis quis quod repellat, saepe, unde voluptatem.</span><span>Aperiam, debitis distinctio, dolore et facilis fugiat harum libero obcaecati perspiciatis possimus quas sit, sunt ullam? Autem consequuntur iure libero natus quia, rem rerum sit. Cumque dolore praesentium quia sunt.</span><span>Architecto ducimus, earum eos natus optio quod repellat. A dolore fugit laboriosam perspiciatis quisquam quos sunt. Aliquid amet earum ex inventore iure quisquam, quo ratione repellat sed, tenetur, veniam veritatis!</span></p>
+
+<table class="table table-hover table-bordered container">
+    <tr>
+        <th>Property Name</th>
+        <th>Property Image</th>
+        <th>Property Owner</th>
+        <th>Location</th>
+        <th>Price</th>
+    </tr>
+
+    <tr>
+        <td>Kipro Centre</td>
+        <td><img src="{% static 'images/property8.png' %}" alt="" class="rounded-circle"></td>
+        <td>James Kariuki</td>
+        <td>Westlands</td>
+        <td>ksh 390,000,000</td>
+    </tr>
+    <tr>
+        <td>Tien Associates</td>
+        <td><img src="{% static 'images/property4.png' %}" alt="" class="rounded-circle"></td>
+        <td>Kuyuka Kunji</td>
+        <td>Westlands</td>
+        <td>ksh 990,000,000</td>
+    </tr>
+    <tr>
+        <td>Kilimani Towers</td>
+        <td><img src="{% static 'images/property7.png' %}" alt="" class="rounded-circle"></td>
+        <td>Simon Njoroge</td>
+        <td>Parklands</td>
+        <td>ksh 880,000,000</td>
+    </tr>
+    <tr>
+        <td>GtC Towers</td>
+        <td><img src="{% static 'images/property3.png' %}" alt="" class="rounded-circle"></td>
+        <td>Eddy Kariuki</td>
+        <td>Syokimau</td>
+        <td>ksh 550,000,000</td>
+    </tr>
+    <tr>
+        <td>Delta HeighTS</td>
+        <td><img src="{% static 'images/property6.png' %}" alt="" class="rounded-circle"
+        <td>Bradley Kariuki</td>
+        <td>Kayole</td>
+        <td>ksh 450,000,000</td>
+</table>
+
+</body>
+</html>
